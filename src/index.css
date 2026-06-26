@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&family=Playfair+Display:wght@400;500;600&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 222 47% 5%;
+    --foreground: 220 20% 93%;
+    --card: 220 30% 9%;
+    --card-foreground: 220 20% 93%;
+    --popover: 220 30% 9%;
+    --popover-foreground: 220 20% 93%;
+    --primary: 42 45% 57%;
+    --primary-foreground: 222 47% 5%;
+    --secondary: 220 30% 12%;
+    --secondary-foreground: 220 20% 93%;
+    --muted: 220 20% 35%;
+    --muted-foreground: 220 15% 55%;
+    --accent: 220 30% 12%;
+    --accent-foreground: 220 20% 93%;
+    --destructive: 0 84% 60%;
+    --destructive-foreground: 0 0% 100%;
+    --border: 218 30% 20%;
+    --input: 218 30% 20%;
+    --ring: 42 45% 57%;
+    --radius: 4px;
+  }
+
+  * {
+    border-color: hsl(var(--border));
+  }
+
+  body {
+    background-color: #060a12;
+    color: #e8edf5;
+    font-family: 'Inter', system-ui, -apple-system, sans-serif;
+    font-size: 15px;
+    line-height: 1.6;
+    letter-spacing: 0.01em;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Inter', system-ui, sans-serif;
+    color: #e8edf5;
+  }
+
+  code, pre {
+    font-family: 'JetBrains Mono', monospace;
+  }
+}
+
+@layer components {
+  .font-display {
+    font-family: 'Playfair Display', Georgia, serif;
+  }
+
+  .font-mono {
+    font-family: 'JetBrains Mono', monospace;
+  }
+
+  .text-signal-green {
+    color: #10b981;
+  }
+
+  .text-signal-red {
+    color: #ef4444;
+  }
+
+  .text-signal-amber {
+    color: #f59e0b;
+  }
+
+  .text-signal-blue {
+    color: #3b82f6;
+  }
+
+  .bg-surface {
+    background-color: #0d1320;
+  }
+
+  .bg-surface-light {
+    background-color: #141e33;
+  }
+
+  .border-subtle {
+    border-color: #1e2d47;
+  }
+
+  .border-strong {
+    border-color: #2a3f63;
+  }
+
+  .text-primary {
+    color: #e8edf5;
+  }
+
+  .text-secondary {
+    color: #7a8ba5;
+  }
+
+  .text-muted-custom {
+    color: #4a5a73;
+  }
+
+  .accent-gold {
+    color: #c8a45c;
+  }
+
+  .bg-accent-gold {
+    background-color: #c8a45c;
+  }
+}
+
+@layer utilities {
+  .scrollbar-hide {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+  .scrollbar-hide::-webkit-scrollbar {
+    display: none;
+  }
+}

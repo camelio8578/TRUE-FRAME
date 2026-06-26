@@ -1,0 +1,42 @@
+TRUEFRAME PROPRIETARY LICENSE
+Copyright 2026 Michael Camelio. All Rights Reserved.
+
+This software and associated documentation files (the "Software") are the
+proprietary and confidential property of Michael Camelio (the "Licensor").
+
+1. NO RIGHTS GRANTED
+   No license, express or implied, is granted to any person or entity to use,
+   copy, modify, merge, publish, distribute, sublicense, or sell copies of
+   this Software, or to permit persons to whom the Software is furnished to
+   do so, except as expressly authorized in writing by the Licensor.
+
+2. OPEN STANDARD SEPARATION
+   The TrueFrame Open Standard specification — including the scoring protocol,
+   API contract definitions, color legend, ambient signal rendering
+   specifications, and security architecture documentation published at
+   https://trueframe.io/founding-document — is published as an Open Standard
+   and may be freely implemented by any platform or individual, subject to
+   compliance with the TrueFrame Standards Council governance rules.
+   The Open Standard specification is SEPARATE from this Software codebase.
+
+3. NO WARRANTY
+   THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+   IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+   FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.
+
+4. INTELLECTUAL PROPERTY
+   The ambient hue signal user interface concept, the pre-score border
+detection
+   algorithm, and the ensemble scoring methodology described in U.S.
+   Provisional Patent Application (filed 2026) are the intellectual property
+   of the Licensor. Patent licensing terms for the Open Standard are
+   published separately by the TrueFrame Standards Council.
+
+For licensing inquiries, partnership proposals, or acquisition discussions:
+michael@trueframe.io
+
+---
+
+Michael Camelio
+Founder & CEO, TrueFrame
+June 2026
